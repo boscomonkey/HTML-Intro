@@ -1,0 +1,27 @@
+/* orange labs styling for S5 slides */
+
+body {
+    background: white url(logo-orange-80.png) no-repeat scroll 0 0;
+}
+
+div#header, div#footer {
+    color: white;
+}
+
+div#header {
+    background: white url(logo-orange-80.png) no-repeat scroll 0 0;
+}
+
+div#footer {
+    background: #FE6600 none repeat scroll 0 0;
+}
+
+#controls #navLinks a {
+    background: #FE6600 none repeat scroll 0 0;
+    color: white;
+}
+
+.slide h1 {
+    background: white;
+    color: #FE6600;
+}
