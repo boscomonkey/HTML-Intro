@@ -1,15 +1,11 @@
 /* orange labs styling for S5 slides */
 
-body {
-    background: white url(logo-orange-80.png) no-repeat scroll 0 0;
+body, div#header {
+    background: white url(logo-orange-80.png) no-repeat scroll 8px 8px;
 }
 
 div#header, div#footer {
     color: white;
-}
-
-div#header {
-    background: white url(logo-orange-80.png) no-repeat scroll 0 0;
 }
 
 div#footer {
@@ -17,11 +13,20 @@ div#footer {
 }
 
 #controls #navLinks a {
-    background: #FE6600 none repeat scroll 0 0;
-    color: white;
+    background: transparent none repeat scroll 0 0;
+    color: lightgrey;
 }
 
 .slide h1 {
-    background: white;
+    background: transparent none repeat scroll 0 0;
     color: #FE6600;
 }
+
+#slide0 {
+    margin-top: 3em;
+}
+
+#currentSlide {
+    color: lightgrey;
+}
+
