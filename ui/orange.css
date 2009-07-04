@@ -1,7 +1,11 @@
 /* orange labs styling for S5 slides */
 
-body, div#header {
-    background: white url(logo-orange-80.png) no-repeat scroll 8px 8px;
+body {
+    background: white url(logo-orange-80.png) no-repeat scroll 0 0;
+}
+
+div#header {
+    background: transparent;
 }
 
 div#header, div#footer {
