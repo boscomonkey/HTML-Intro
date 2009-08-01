@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-<title>Rails Outreach Workshop for Women</title>
+<title>Rails Outreach Workshop</title>
 <!-- metadata -->
 <meta name="generator" content="S5" />
 <meta name="version" content="S5 1.1" />
@@ -25,6 +25,12 @@
 <link rel="stylesheet" href="ui/default/opera.css" type="text/css" media="projection" id="operaFix" />
 <!-- S5 JS -->
 <script src="ui/default/slides.js" type="text/javascript"></script>
+<style>
+.email {
+  font-family: sans-serif;
+  font-size: smaller;
+}
+</style>
 </head>
 <body>
 
@@ -34,38 +40,179 @@
   <div id="header"></div>
   <div id="footer">
     <h1>Pivotal Labs - Aug 1, 2009</h1>
-    <h2>Rails Outreach Workshop for Women</h2>
+    <h2>Rails Outreach Workshop</h2>
   </div>
 </div>
 
 
 <div class="presentation">
 
-<div class="slide">
-<h1>Rails Outreach Workshop for Women</h1>
-<h2>Beginners Class</h2>
-  <h3>Salman Ansari<br />
-  Bosco So</h3>
-</div>
+  <div class="slide">
+    <h1>Rails Outreach Workshop</h1>
+    <h2>Beginners Class</h2>
+    <h3>Salman Ansari <span class="email">&lt;salman.ansari@gmail.com&gt;</span><br />
+      Bosco So <span class="email">&lt;rubymeetup@boscoso.com&gt;</span></h3>
+  </div>
 
-<div class="slide">
-  <h1>Rails</h1>
-  <div class="slidecontent">
-    <ul class="incremental">
-      <li>Command Line</li>
-      <li>Heroku Deployment</li>
-      <li>Scaffolding</li>
-      <li>ORM</li>
-      <li>Database Transparency</li>
-      <li>Migration</li>
-      <li>REST</li>
-      <li>XML & Json</li>
-      <li>ORM II - Associations</li>
-   </ul>
+  <div class="slide">
+    <h1>Hyper-Text Markup Language</h1>
+    <div class="slidecontent">
+      <ul class="nonincremental">
+	<li>Barebones text</li>
+	<li>Whitespace doesn't matter</li>
+	<li>Markup with Tags: p, br, h1, h2, img, src, a</li>
+	<li>Tags are Usually paired</li>
+	<li>Tags are sometimes lonely</li>
+	<li>Tags can be nested</li>
+	<li>Tags for lists and tables</li>
+	<li>Where's the Hyper-Text?</li>
+      </ul>
+    </div>
+    <div class="handout">
+    </div>
   </div>
-  <div class="handout">
+
+  <div class="slide">
+    <h1>Barebones Text</h1>
+    <div class="slidecontent">
+      <p>Donec pretium lorem in tortor ultrices volutpat hendrerit augue luctus. Donec sed nisl in orci tristique dapibus et vel enim. Sed luctus sodales diam, eu aliquam erat tristique ut. Mauris a massa leo. Donec in tortor mauris. Integer venenatis porta posuere. Fusce varius nisi non sem varius varius.</p>
+
+      <p>Nullam ac ipsum elit, et tincidunt nunc. Nullam posuere nisl at augue scelerisque fringilla. Etiam metus mi, vehicula at accumsan at, aliquet nec velit. Duis pharetra leo augue, ac accumsan lacus. Duis ut scelerisque ante.</p>
+    </div>
+    <div class="handout">
+    </div>
   </div>
-</div>
+
+  <div class="slide">
+    <h1>Whitespace Doesn't Matter</h1>
+    <div class="slidecontent">
+      Enter the Tag...
+      <ul class="nonincremental">
+	<li>&lt;p&gt;...&lt;/p&gt; sets up paragraphs</li>
+	<li>&lt;br /&gt; sets up line breaks
+      </ul>
+   </div>
+    <div class="handout">
+    </div>
+  </div>
+
+  <div class="slide">
+    <h1>Tags are usually paired</h1>
+    <div class="slidecontent">
+      <ul class="nonincremental">
+	<li>P seen previously</li>
+	<li>B for bold</li>
+	<li>I for italics</li>
+	<li>h1 through h6</li>
+	<li>case insensitive: &lt;P&gt; is same as &lt;p&gt;</li>
+      </ul>
+  </div>
+    <div class="handout">
+    </div>
+  </div>
+
+  <div class="slide">
+    <h1>Tags are sometimes lonely</h1>
+    <div class="slidecontent">
+      <ul class="nonincremental">
+	<li>BR</li>
+	<li>IMG</li>
+	<li><code>&lt;img src="http://wiki.devchix.com/images/devchix_logo_sm.jpg" /&gt;</code><br /<img src="http://wiki.devchix.com/images/devchix_logo_sm.jpg" /></li>
+     </ul>
+   </div>
+    <div class="handout">
+    </div>
+  </div>
+
+  <div class="slide">
+    <h1>Tags can be nested</h1>
+    <div class="slidecontent">
+      <ul class="nonincremental">
+	<li>&lt;b&gt;Hello&lt;/b&gt;</li>
+	<li><b>Hello</b></li>
+	<li>&lt;i&gt;Hello&lt;/i&gt;</li>
+	<li><i>Hello</i></li>
+	<li>&lt;b&gt;&lt;i&gt;Hello&lt;/i&gt;&lt;/b&gt;</li>
+	<li><b><i>Hello</i></b></li>
+     </ul>
+   </div>
+    <div class="handout">
+    </div>
+  </div>
+
+  <div class="slide">
+    <h1>Tags for lists &amp; tables</h1>
+    <div class="slidecontent">
+      <ul class="nonincremental">
+	<li>ordered lists</li>
+	<li>unordered lists</li>
+	<li>list tag with nested item tag(s)</li>
+	<li>Table tag, with one or more table row (tr tag), with one or more table data (td tag)</li>
+     </ul>
+   </div>
+    <div class="handout">
+    </div>
+  </div>
+
+  <div class="slide">
+    <h1>What about the Hyper-Text?</h1>
+    <div class="slidecontent">
+      <ul class="nonincremental">
+	<li>&lt;a href="http://www.google.com"&gt;Search Engine&lt/a&gt;</li>
+	<li><a href="http://www.google.com">Search Engine</a></li>
+     </ul>
+   </div>
+    <div class="handout">
+    </div>
+  </div>
+
+  <div class="slide">
+    <h1>View Source is your friend</h1>
+    <div class="slidecontent">
+  </div>
+    <div class="handout">
+    </div>
+  </div>
+
+  <div class="slide">
+    <h1>HTML Wrap-Up</h1>
+    <div class="slidecontent">
+      <ul class="incremental">
+	<li>Barebones text</li>
+	<li>Whitespace doesn't matter</li>
+	<li>Markup with Tags: p, br, h1, h2, img, src, a</li>
+	<li>Tags are Usually paired</li>
+	<li>Tags are sometimes lonely</li>
+	<li>Tags can be nested</li>
+	<li>Tags for lists and tables</li>
+	<li>Where's the Hyper-Text?</li>
+      </ul>
+    </div>
+    <div class="handout">
+    </div>
+  </div>
+
+<!--
+  <div class="slide">
+    <h1>Rails</h1>
+    <div class="slidecontent">
+      <ul class="incremental">
+	<li>Command Line</li>
+	<li>Heroku Deployment</li>
+	<li>Scaffolding</li>
+	<li>ORM</li>
+	<li>Database Transparency</li>
+	<li>Migration</li>
+	<li>REST</li>
+	<li>XML & Json</li>
+	<li>ORM II - Associations</li>
+      </ul>
+    </div>
+    <div class="handout">
+    </div>
+  </div>
+
+-->
 
 </div>
 
