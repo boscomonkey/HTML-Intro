@@ -1,7 +1,7 @@
 /* orange labs styling for S5 slides */
 
 body {
-    background: white url(logo-orange-80.png) no-repeat scroll 0 0;
+    background: white none repeat scroll 0 0;
 }
 
 div#header {
@@ -27,7 +27,7 @@ div#footer {
 }
 
 #slide0 {
-    margin-top: 3em;
+    margin-top: 1em;
 }
 
 #currentSlide {
